@@ -1,69 +1,43 @@
 # QuakeC UI Library
 
-The QuakeC UI Library enables developers to create advanced user interfaces for games or applications built on the QuakeC engine. It provides functionality to manage windows, handle input, draw UI elements, and more.
+The QuakeC UI Library offers a comprehensive set of tools for creating rich user interfaces in QuakeC engine-based games or applications. It facilitates the management of windows, input handling, and UI element rendering.
 
 ## Features
 
-- **Window Management:** Create, manage, and delete windows with various configurations.
-- **Input Handling:** Easily handle window input for interactive user experiences.
-- **Drawing UI Elements:** Draw windows and UI elements on the screen with customizable styles.
-- **Easy Integration:** Integrate the library into your QuakeC projects with minimal effort.
+- **Window Management:** Easily create, manage, and delete windows with flexible configurations.
+- **Input Handling:** Seamlessly handle user input for interactive experiences.
+- **UI Element Rendering:** Draw various UI elements such as buttons, text fields, sliders, and checkboxes.
+- **Customization:** Customize UI elements' appearance and behavior to suit specific requirements.
 
-## Usage
+## Usage Scenarios
 
-### Creating a Window
+### 1. Basic Window Creation
 
-```md
-entity window = CreateWindow([100, 100], [200, 150], W_NONE, "Main Window");
-```
+- Create a window with specified position, size, and title.
+- Add UI elements such as buttons and text fields to the window.
 
-### Handling Window Input
+### 2. Interactive UI Elements
 
-```md
-float HandleWindowInput(float evtype, float scanx, float chary)
-{
-    // Implementation...
-}
-```
+- Implement event handlers for buttons to trigger actions on click.
+- Use checkboxes and sliders to adjust game settings or preferences.
 
-### Getting a Window by Name
+### 3. Modal Dialogs
 
-```md
-entity getWindowByName(string n)
-{
-    // Implementation...
-}
-```
+- Create modal dialog windows to prompt users for confirmation or input.
+- Prevent interaction with other windows while a modal dialog is active.
 
-### Drawing Windows
+### 4. Animated UI Elements
 
-```md
-void DrawWindows()
-{
-    // Implementation...
-}
-```
+- Incorporate animations such as fading effects for smooth transitions.
+- Add animations to window opening or closing for a polished user experience.
 
-### Deleting Windows
+### 5. Responsive Design
 
-```md
-void deleteWindow(entity window)
-{
-    // Implementation...
-}
-```
-
-### Deleting All Windows
-
-```md
-void deleteAllWindows()
-{
-    // Implementation...
-}
-```
+- Design UI elements that adapt to different screen resolutions and aspect ratios.
+- Implement scrollable windows for content that exceeds the viewport size.
 
 ## Getting Started
 
 1. Clone or download the QuakeC UI Library repository.
-2. Include the library in your QuakeC project.
-3. Use the provided functions to create and manage windows and UI elements.
+2. Integrate the library into your QuakeC project.
+3. Utilize the provided functions and examples to create custom user interfaces tailored to your game or application.
