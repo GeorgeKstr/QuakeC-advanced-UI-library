@@ -40,4 +40,4 @@ The QuakeC UI Library offers a comprehensive set of tools for creating rich user
 
 1. Clone or download the QuakeC UI Library repository.
 2. Integrate the library into your QuakeC project.
-3. Utilize the provided functions and examples to create custom user interfaces tailored to your game or application.
+3. Utilize the provided functions and examples(work in progress) to create custom user interfaces tailored to your game or application.
